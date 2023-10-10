@@ -11,7 +11,7 @@
 
                 <div class="mb-3">
                     <input id="name" type="text" class="form-control bg-white @error('name') is-invalid @enderror" name="name"
-                        value="{{ old('name') }}" required autocomplete="name" autofocus placeholder="Họ và tên">
+                        value="{{ old('name') }}" autocomplete="name" autofocus placeholder="Họ và tên">
 
                     @error('name')
                     <span class="invalid-feedback" role="alert">
@@ -22,7 +22,7 @@
 
                 <div class="mb-3">
                     <input id="username" type="text" class="form-control bg-white @error('username') is-invalid @enderror" name="username"
-                        value="{{ old('username') }}" required autocomplete="username" autofocus placeholder="Tên đăng nhập">
+                        value="{{ old('username') }}" autocomplete="username" autofocus placeholder="Tên đăng nhập">
 
                     @error('username')
                     <span class="invalid-feedback" role="alert">
@@ -33,7 +33,7 @@
                 
                 <div class="mb-3">
                     <input id="password" type="password" class="form-control bg-white @error('password') is-invalid @enderror"
-                        name="password" required autocomplete="new-password" placeholder="Mật khẩu">
+                        name="password" autocomplete="new-password" placeholder="Mật khẩu">
 
                     @error('password')
                     <span class="invalid-feedback" role="alert">
@@ -44,7 +44,7 @@
 
                 <div class="mb-3">
                     <input id="email" type="email" class="form-control bg-white @error('email') is-invalid @enderror"
-                        name="email" value="{{ old('email') }}" required autocomplete="email"
+                        name="email" value="{{ old('email') }}" autocomplete="email"
                         placeholder="Địa chỉ email">
 
                     @error('email')

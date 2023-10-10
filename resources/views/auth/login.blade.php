@@ -10,8 +10,8 @@
                 @csrf
 
                 <div class="mb-3">
-                    <input id="username" type="username" class="form-control bg-white @error('username') is-invalid @enderror"
-                        name="username" value="{{ old('username') }}" required autocomplete="username" autofocus
+                    <input id="username" type="text" class="form-control bg-white @error('username') is-invalid @enderror"
+                        name="username" value="{{ old('username') }}" autocomplete="username" autofocus
                         placeholder="Tên đăng nhập">
 
                     @error('username')
@@ -23,7 +23,7 @@
 
                 <div class="mb-3">
                     <input id="password" type="password" class="form-control bg-white @error('password') is-invalid @enderror"
-                        name="password" required autocomplete="current-password" placeholder="Mật khẩu">
+                        name="password" autocomplete="current-password" placeholder="Mật khẩu">
 
                     @error('password')
                     <span class="invalid-feedback" role="alert">

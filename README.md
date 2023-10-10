@@ -2,8 +2,8 @@
 
 ## 1. Các đường dẫn
 - Github: https://github.com/nhibang/quan-li-thu-vien.git
-- Figma: https://www.figma.com/file/237RKrglwLk3IaRAW4htG4/QuanLyThuVien?type=design&mode=design&t=Ox7Xr8tOFH8gJbu7-1
-- Google Drive: https://drive.google.com/drive/folders/1rLBp3pYThG8nD3ZPga1ikV2Ssgsjl5RF?usp=drive_link
+- Figma: https://www.figma.com/file/V8JBCQSk1oVW12xggNXrro/Th%C6%B0-vi%E1%BB%87n-s%E1%BB%91?type=design&node-id=0%3A1&mode=design&t=uzNJyRE1ZKZ3CfJv-1
 
 ## 2. Hướng dẫn cài đặt môi trường phát triển
-Đang cập nhật...
+Cài đặt XAMPP.
+Cài đặt Composer.
